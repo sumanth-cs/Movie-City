@@ -1,0 +1,125 @@
+.movie{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie_intro{
+    width:80%;
+}
+
+.movie_backdrop{
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+    object-position: 0 35%;
+}
+
+.movie_detail{
+    width: 75%;
+    align-items: center;
+    display: flex;
+    position: relative;
+    bottom: 225px;
+}
+
+.movie_detail_left{
+    margin-right: 30px;
+}
+
+.movie_poster{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+
+.movie_detail_right{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 385px;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+}
+
+.movie_detail_right_top > div{
+    text-shadow: 0px 0px 5px #000000;
+    margin-bottom: .5rem;
+}
+
+.movie_name{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.movie_vote_count{
+    margin-left: 1rem;
+}
+
+.movie_genres {
+    margin: 1.25rem 0;
+}
+
+.movie_genre {
+    padding: .5rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+.movie_detailRightBottom {
+    margin: 2rem 0;
+    flex: 0.8;
+}
+
+.synopsis_text {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.synopsis_text > div:last-of-type {
+    margin-left: auto;
+}
+
+.movie_links {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.movie_heading {
+    font-size: 2.2rem;
+}
+
+.movie_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.movie_homepage_btn {
+    background-color:rgb(255, 0, 0);
+    
+}
+
+.movie_imdb_btn {
+    background-color:#f3ce13;
+}
+
+.newTab {
+    margin-left: 1.4rem;
+}

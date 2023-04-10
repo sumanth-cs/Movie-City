@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: black;
+  color: white
+}
+
+html,
+body,
+#root,
+.app {
+  min-height: 100%;
+  font-family:"circular" 
+}
